@@ -13,6 +13,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="LemmaSharp">
+      <HintPath>F:\programming\vs\библиотеки\LemmaGen_v3.0_PrebuiltFull_dll\LemmaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LemmaSharpPrebuilt">
+      <HintPath>F:\programming\vs\библиотеки\LemmaGen_v3.0_PrebuiltFull_dll\LemmaSharpPrebuilt.dll</HintPath>
+    </Reference>
+    <Reference Include="LemmaSharpPrebuiltFull">
+      <HintPath>F:\programming\vs\библиотеки\LemmaGen_v3.0_PrebuiltFull_dll\LemmaSharpPrebuiltFull.dll</HintPath>
+    </Reference>
+    <Reference Include="Lzma#">
+      <HintPath>F:\programming\vs\библиотеки\LemmaGen_v3.0_PrebuiltFull_dll\Lzma#.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="en.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

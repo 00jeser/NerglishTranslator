@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using LemmaSharp;
 
 namespace NerglishTranslator.Controllers
 {
@@ -50,13 +51,21 @@ namespace NerglishTranslator.Controllers
                 bodyStr = reader.ReadToEndAsync().Result;
             }
             string rez = "";
-            foreach (string s in bodyStr.Split(' '))
+            ILemmatizer lmtz = new LemmatizerPrebuiltFull(LemmaSharp.LanguagePrebuilt.English);
+            foreach (string s in bodyStr.Split(new char[] { ' ', ',', '.', ')', '(' }, StringSplitOptions.RemoveEmptyEntries))
             {
-                int index = Static.en.IndexOf(s);
+                var lema = lmtz.Lemmatize(s).ToLower();
+                int index = Static.en.IndexOf(lema);
                 if (index == -1)
-                    rez += s + " ";
+                    rez += lema + " ";
                 else
+                {
+                    if (s.Last() == 's' && lema.Last() != 's')
+                        rez += Static.ner[index] + " ";
+                    if (s.EndsWith("est") && !lema.EndsWith("est"))
+                        rez += Static.ner[index] + " ";
                     rez += Static.ner[index] + " ";
+                }
             }
             return rez;
         }

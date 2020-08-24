@@ -353,3 +353,7 @@ C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\obj\Debug\netc
 C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\obj\Debug\netcoreapp3.1\NerglishTranslator.genruntimeconfig.cache
 C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\en.txt
 C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\ner.txt
+C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\LemmaSharp.dll
+C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\LemmaSharpPrebuilt.dll
+C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\LemmaSharpPrebuiltFull.dll
+C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslator\bin\Debug\netcoreapp3.1\Lzma#.dll
