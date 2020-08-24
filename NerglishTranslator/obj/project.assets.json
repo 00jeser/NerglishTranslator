@@ -276,6 +276,40 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "LemmaSharp/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LemmaSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LemmaSharp.dll": {}
+        }
+      },
+      "LemmaSharpPrebuilt/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "LemmaSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
+        }
+      },
+      "LemmaSharpPrebuiltCompact/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "LemmaSharp": "1.0.0",
+          "LemmaSharpPrebuilt": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LemmaSharpPrebuiltCompact.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LemmaSharpPrebuiltCompact.dll": {}
+        }
       }
     }
   },
@@ -719,10 +753,28 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "LemmaSharp/1.0.0": {
+      "type": "project",
+      "path": "../LemmaSharp/LemmaSharp.csproj",
+      "msbuildProject": "../LemmaSharp/LemmaSharp.csproj"
+    },
+    "LemmaSharpPrebuilt/1.0.0": {
+      "type": "project",
+      "path": "../LemmaSharpPrebuilt/LemmaSharpPrebuilt.csproj",
+      "msbuildProject": "../LemmaSharpPrebuilt/LemmaSharpPrebuilt.csproj"
+    },
+    "LemmaSharpPrebuiltCompact/1.0.0": {
+      "type": "project",
+      "path": "../LemmaSharpPrebuilt/LemmaSharpPrebuiltCompact.csproj",
+      "msbuildProject": "../LemmaSharpPrebuilt/LemmaSharpPrebuiltCompact.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "LemmaSharp >= 1.0.0",
+      "LemmaSharpPrebuilt >= 1.0.0",
+      "LemmaSharpPrebuiltCompact >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.6",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9"
     ]
@@ -757,7 +809,17 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
+            },
+            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj": {
+              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj"
+            },
+            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
+              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

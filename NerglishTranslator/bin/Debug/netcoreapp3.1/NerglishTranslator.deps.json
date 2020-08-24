@@ -24,12 +24,11 @@
     ".NETCoreApp,Version=v3.1": {
       "NerglishTranslator/1.0.0": {
         "dependencies": {
+          "LemmaSharp": "1.0.0",
+          "LemmaSharpPrebuilt": "1.0.0",
+          "LemmaSharpPrebuiltCompact": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.6",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.9",
-          "LemmaSharp": "0.0.0.0",
-          "LemmaSharpPrebuilt": "0.0.0.0",
-          "LemmaSharpPrebuiltFull": "0.0.0.0",
-          "Lzma#": "4.12.3884.11200",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -532,37 +531,35 @@
         }
       },
       "System.Threading.Tasks.Extensions/4.5.3": {},
-      "LemmaSharp/0.0.0.0": {
+      "LemmaSharp/1.0.0": {
         "runtime": {
-          "LemmaSharp.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
+          "LemmaSharp.dll": {}
         },
         "compile": {
           "LemmaSharp.dll": {}
         }
       },
-      "LemmaSharpPrebuilt/0.0.0.0": {
+      "LemmaSharpPrebuilt/1.0.0": {
+        "dependencies": {
+          "LemmaSharp": "1.0.0"
+        },
         "runtime": {
-          "LemmaSharpPrebuilt.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
+          "LemmaSharpPrebuilt.dll": {}
         },
         "compile": {
           "LemmaSharpPrebuilt.dll": {}
         }
       },
-      "LemmaSharpPrebuiltFull/0.0.0.0": {
+      "LemmaSharpPrebuiltCompact/1.0.0": {
+        "dependencies": {
+          "LemmaSharp": "1.0.0",
+          "LemmaSharpPrebuilt": "1.0.0"
+        },
         "runtime": {
-          "LemmaSharpPrebuiltFull.dll": {
-            "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.0"
-          }
+          "LemmaSharpPrebuiltCompact.dll": {}
         },
         "compile": {
-          "LemmaSharpPrebuiltFull.dll": {}
+          "LemmaSharpPrebuiltCompact.dll": {}
         }
       },
       "Lzma#/4.12.3884.11200": {
@@ -571,9 +568,6 @@
             "assemblyVersion": "4.12.3884.11200",
             "fileVersion": "4.12.3884.11200"
           }
-        },
-        "compile": {
-          "Lzma#.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -2389,18 +2383,18 @@
       "path": "system.threading.tasks.extensions/4.5.3",
       "hashPath": "system.threading.tasks.extensions.4.5.3.nupkg.sha512"
     },
-    "LemmaSharp/0.0.0.0": {
-      "type": "reference",
+    "LemmaSharp/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LemmaSharpPrebuilt/0.0.0.0": {
-      "type": "reference",
+    "LemmaSharpPrebuilt/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "LemmaSharpPrebuiltFull/0.0.0.0": {
-      "type": "reference",
+    "LemmaSharpPrebuiltCompact/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     },

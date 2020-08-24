@@ -4,6 +4,57 @@
     "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\NerglishTranslator\\NerglishTranslator.csproj": {}
   },
   "projects": {
+    "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj",
+        "projectName": "LemmaSharpPrebuilt",
+        "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj",
+        "frameworks": {
+          "net20": {
+            "projectReferences": {
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net20": {}
+      }
+    },
+    "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj",
+        "projectName": "LemmaSharpPrebuiltCompact",
+        "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj",
+        "frameworks": {
+          "net20": {
+            "projectReferences": {
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
+              },
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net20": {}
+      }
+    },
+    "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj",
+        "projectName": "LemmaSharp",
+        "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
+      },
+      "frameworks": {
+        "net20": {}
+      }
+    },
     "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\NerglishTranslator\\NerglishTranslator.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -30,7 +81,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
+              },
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj"
+              },
+              "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
+                "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

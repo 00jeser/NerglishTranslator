@@ -1,0 +1,10 @@
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\bin\Debug\LemmaSharpPrebuilt.dll
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\bin\Debug\LemmaSharpPrebuilt.pdb
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\bin\Debug\LemmaSharp.dll
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\bin\Debug\Lzma#.dll
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\bin\Debug\LemmaSharp.pdb
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\obj\Debug\LemmaSharpPrebuilt.csprojAssemblyReference.cache
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\obj\Debug\LemmaSharpPrebuilt.csproj.CoreCompileInputs.cache
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\obj\Debug\LemmaSharpPrebuilt.csproj.CopyComplete
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\obj\Debug\LemmaSharpPrebuilt.dll
+C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharpPrebuilt\obj\Debug\LemmaSharpPrebuilt.pdb

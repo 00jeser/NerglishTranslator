@@ -1,0 +1,8 @@
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\bin\Debug\LemmaSharp.dll
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\bin\Debug\LemmaSharp.pdb
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\bin\Debug\Lzma#.dll
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\obj\Debug\LemmaSharp.csprojAssemblyReference.cache
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\obj\Debug\LemmaSharp.csproj.CoreCompileInputs.cache
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\obj\Debug\LemmaSharp.csproj.CopyComplete
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\obj\Debug\LemmaSharp.dll
+F:\programming\vs\библиотекии\LemmaGen_v3.0_PrebuiltFull_dll\source\LemmaSharp\obj\Debug\LemmaSharp.pdb

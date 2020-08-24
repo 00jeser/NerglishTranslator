@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using LemmaSharp;
 
+
 namespace NerglishTranslator.Controllers
 {
     [ApiController]
@@ -51,7 +52,7 @@ namespace NerglishTranslator.Controllers
                 bodyStr = reader.ReadToEndAsync().Result;
             }
             string rez = "";
-            ILemmatizer lmtz = new LemmatizerPrebuiltFull(LemmaSharp.LanguagePrebuilt.English);
+            ILemmatizer lmtz = new LemmatizerPrebuiltCompact(LemmaSharp.LanguagePrebuilt.English);
             foreach (string s in bodyStr.Split(new char[] { ' ', ',', '.', ')', '(' }, StringSplitOptions.RemoveEmptyEntries))
             {
                 var lema = lmtz.Lemmatize(s).ToLower();
