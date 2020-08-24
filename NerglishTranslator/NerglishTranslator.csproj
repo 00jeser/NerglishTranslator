@@ -35,6 +35,15 @@
     <None Update="en.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="LemmaSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="LemmaSharpPrebuilt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="LemmaSharpPrebuiltFull.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="ner.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
