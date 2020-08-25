@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,15 +10,93 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.6" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="SevenZip" Version="19.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LemmaSharpPrebuilt\LemmaSharpPrebuilt.csproj" />
-    <ProjectReference Include="..\LemmaSharpPrebuilt\LemmaSharpPrebuiltCompact.csproj" />
-    <ProjectReference Include="..\LemmaSharp\LemmaSharp.csproj" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-bg.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-cs.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-en.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-et.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-fa.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-fr.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-hu.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-mk.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-pl.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-ro.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-ru.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sk.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sl.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sr.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-uk.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-en.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-fr.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-ge.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-it.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-sp.lem" />
   </ItemGroup>
-
+  
   <ItemGroup>
+    <None Update="Data\compact7z-mlteast-bg.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-cs.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-en.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-et.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-fa.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-fr.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-hu.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-mk.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-pl.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-ro.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-ru.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-sk.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-sl.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-sr.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-mlteast-uk.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-multext-en.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-multext-fr.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-multext-ge.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-multext-it.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\compact7z-multext-sp.lem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="en.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

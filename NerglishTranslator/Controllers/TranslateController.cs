@@ -27,21 +27,7 @@ namespace NerglishTranslator.Controllers
         [HttpGet]
         public string Get()
         {
-            string bodyStr;
-            using (StreamReader reader = new StreamReader(Request.Body, Encoding.UTF8, true, 1024, true))
-            {
-                bodyStr = reader.ReadToEndAsync().Result;
-            }
-            string rez = "";
-            foreach (string s in bodyStr.Split(' '))
-            {
-                int index = Static.en.IndexOf(s.ToLower());
-                if (index == -1)
-                    rez += s + " ";
-                else
-                    rez += Static.ner[index] + " ";
-            }
-            return rez;
+            return "use post mrthod";
         }
         [HttpPost]
         public string Post()

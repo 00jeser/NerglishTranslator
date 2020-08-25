@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/LemmaSharp.dll": {}
         }
+      },
+      "LemmaSharpPrebuilt/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.7.2",
+        "dependencies": {
+          "LemmaSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
+        }
       }
     },
     ".NETStandard,Version=v2.0": {
@@ -46,6 +59,19 @@
         },
         "runtime": {
           "bin/placeholder/LemmaSharp.dll": {}
+        }
+      },
+      "LemmaSharpPrebuilt/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LemmaSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
         }
       }
     }
@@ -199,14 +225,21 @@
       "type": "project",
       "path": "../LemmaSharp/LemmaSharp.csproj",
       "msbuildProject": "../LemmaSharp/LemmaSharp.csproj"
+    },
+    "LemmaSharpPrebuilt/1.0.0": {
+      "type": "project",
+      "path": "LemmaSharpPrebuilt.csproj",
+      "msbuildProject": "LemmaSharpPrebuilt.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
-      "LemmaSharp >= 1.0.0"
+      "LemmaSharp >= 1.0.0",
+      "LemmaSharpPrebuilt >= 1.0.0"
     ],
     ".NETStandard,Version=v2.0": [
       "LemmaSharp >= 1.0.0",
+      "LemmaSharpPrebuilt >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -217,9 +250,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj",
-      "projectName": "LemmaSharpPrebuilt",
-      "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj",
+      "projectUniqueName": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj",
+      "projectName": "LemmaSharpPrebuiltCompact",
+      "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj",
       "packagesPath": "C:\\Users\\00jes\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\obj\\",
       "projectStyle": "PackageReference",
@@ -243,6 +276,9 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
+            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
+            },
             "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
               "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
             }
@@ -250,6 +286,9 @@
         },
         "netstandard2.0": {
           "projectReferences": {
+            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
+              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
+            },
             "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
               "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
             }

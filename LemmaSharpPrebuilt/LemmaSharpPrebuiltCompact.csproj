@@ -7,10 +7,6 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LemmaSharp\LemmaSharp.csproj" />
-    <ProjectReference Include="LemmaSharpPrebuilt.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Data\compact7z-mlteast-bg.lem" />
     <EmbeddedResource Include="Data\compact7z-mlteast-cs.lem" />
     <EmbeddedResource Include="Data\compact7z-mlteast-en.lem" />

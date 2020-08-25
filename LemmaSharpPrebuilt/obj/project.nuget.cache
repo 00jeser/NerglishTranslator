@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qTMdFFkTAdKDRIAnQbE2ufLJHwRJHl6DAe8RlooMM+av699enDlEnWkLyaxhODHDUqP+NSIigZpzKtnSZdvpKg==",
+  "dgSpecHash": "sg6kU8vVZ83Sl8AtwIerz4VnIVK37US2eOqWduRpFht6678yBaUXpaoPSo06/IOF4YYk6SZGQAvNM2vs7GWCWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj",
+  "projectFilePath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\00jes\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\00jes\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

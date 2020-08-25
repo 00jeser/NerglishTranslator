@@ -204,6 +204,15 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
+      "SevenZip/19.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SevenZip.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.5.0": {
         "type": "package",
         "compile": {
@@ -275,43 +284,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "LemmaSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/LemmaSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LemmaSharp.dll": {}
-        }
-      },
-      "LemmaSharpPrebuilt/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "LemmaSharp": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LemmaSharpPrebuilt.dll": {}
-        }
-      },
-      "LemmaSharpPrebuiltCompact/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "LemmaSharp": "1.0.0",
-          "LemmaSharpPrebuilt": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LemmaSharpPrebuiltCompact.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LemmaSharpPrebuiltCompact.dll": {}
         }
       }
     }
@@ -575,6 +547,21 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
+    "SevenZip/19.0.0": {
+      "sha512": "+Eeb/uvC0REvMlG1auBqlBMiFiPZs+WizlLroHPSKtBh/V7NR/qOocgk+/7S0lNzciYsurMCeJzUL7LYIqVnWw==",
+      "type": "package",
+      "path": "sevenzip/19.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/SevenZip.dll",
+        "lib/netstandard2.0/SevenZip.dll",
+        "pack-package.cmd",
+        "publish-package.cmd",
+        "sevenzip.19.0.0.nupkg.sha512",
+        "sevenzip.nuspec"
+      ]
+    },
     "System.Collections.Immutable/1.5.0": {
       "sha512": "EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
       "type": "package",
@@ -756,30 +743,13 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "LemmaSharp/1.0.0": {
-      "type": "project",
-      "path": "../LemmaSharp/LemmaSharp.csproj",
-      "msbuildProject": "../LemmaSharp/LemmaSharp.csproj"
-    },
-    "LemmaSharpPrebuilt/1.0.0": {
-      "type": "project",
-      "path": "../LemmaSharpPrebuilt/LemmaSharpPrebuilt.csproj",
-      "msbuildProject": "../LemmaSharpPrebuilt/LemmaSharpPrebuilt.csproj"
-    },
-    "LemmaSharpPrebuiltCompact/1.0.0": {
-      "type": "project",
-      "path": "../LemmaSharpPrebuilt/LemmaSharpPrebuiltCompact.csproj",
-      "msbuildProject": "../LemmaSharpPrebuilt/LemmaSharpPrebuiltCompact.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "LemmaSharp >= 1.0.0",
-      "LemmaSharpPrebuilt >= 1.0.0",
-      "LemmaSharpPrebuiltCompact >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.6",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9"
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "SevenZip >= 19.0.0"
     ]
   },
   "packageFolders": {
@@ -812,17 +782,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj": {
-              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuilt.csproj"
-            },
-            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj": {
-              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharpPrebuilt\\LemmaSharpPrebuiltCompact.csproj"
-            },
-            "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj": {
-              "projectPath": "C:\\Users\\00jes\\source\\repos\\NerglishTranslator\\LemmaSharp\\LemmaSharp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -841,6 +801,10 @@
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
             "version": "[1.10.9, )"
+          },
+          "SevenZip": {
+            "target": "Package",
+            "version": "[19.0.0, )"
           }
         },
         "imports": [
