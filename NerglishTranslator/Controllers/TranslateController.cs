@@ -18,10 +18,14 @@ namespace NerglishTranslator.Controllers
     public class TranslateController : ControllerBase
     {
         private readonly ILogger<TranslateController> _logger;
+        public Dictionary<string, string> ExceptionWords = new Dictionary<string, string>();
 
         public TranslateController(ILogger<TranslateController> logger)
         {
             _logger = logger;
+            ExceptionWords.Add("is", "as");
+            ExceptionWords.Add("murloc", "murlok");
+            ExceptionWords.Add("murlocs", "murlok murlok");
         }
 
         [HttpGet]
@@ -43,7 +47,9 @@ namespace NerglishTranslator.Controllers
             {
                 var lema = lmtz.Lemmatize(s).ToLower();
                 int index = Static.en.IndexOf(lema);
-                if (index == -1)
+                if (ExceptionWords.Keys.ToList().IndexOf(s) != -1)
+                    rez += ExceptionWords[s];
+                else if (index == -1)
                     rez += lema + " ";
                 else
                 {
