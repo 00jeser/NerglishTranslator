@@ -1,0 +1,13 @@
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.GlobalUsings.g.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.csproj.AssemblyReference.cache
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.AssemblyInfoInputs.cache
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.AssemblyInfo.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.csproj.CoreCompileInputs.cache
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.RazorComponent.input.cache
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\obj\Debug\net5.0\NerglishTranslatorV2.RazorComponent.output.cache
