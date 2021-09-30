@@ -1,0 +1,10 @@
+.controlContainer[b-jd1bxdq6f3]{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 1rem;
+}
+textarea[b-jd1bxdq6f3]{
+    width: 100%;
+    height: 60vh;
+}

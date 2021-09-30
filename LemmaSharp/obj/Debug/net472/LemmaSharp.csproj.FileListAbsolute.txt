@@ -1,8 +1,0 @@
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\net472\LemmaSharp.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\net472\LemmaSharp.pdb
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\net472\Lzma#.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\net472\LemmaSharp.csprojAssemblyReference.cache
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\net472\LemmaSharp.csproj.CoreCompileInputs.cache
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\net472\LemmaSharp.csproj.CopyComplete
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\net472\LemmaSharp.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\net472\LemmaSharp.pdb

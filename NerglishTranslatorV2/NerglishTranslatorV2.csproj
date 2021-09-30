@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\compact7z-mlteast-bg.lem" />
+    <None Remove="Data\compact7z-mlteast-cs.lem" />
+    <None Remove="Data\compact7z-mlteast-en.lem" />
+    <None Remove="Data\compact7z-mlteast-et.lem" />
+    <None Remove="Data\compact7z-mlteast-fa.lem" />
+    <None Remove="Data\compact7z-mlteast-fr.lem" />
+    <None Remove="Data\compact7z-mlteast-hu.lem" />
+    <None Remove="Data\compact7z-mlteast-mk.lem" />
+    <None Remove="Data\compact7z-mlteast-pl.lem" />
+    <None Remove="Data\compact7z-mlteast-ro.lem" />
+    <None Remove="Data\compact7z-mlteast-ru.lem" />
+    <None Remove="Data\compact7z-mlteast-sk.lem" />
+    <None Remove="Data\compact7z-mlteast-sl.lem" />
+    <None Remove="Data\compact7z-mlteast-sr.lem" />
+    <None Remove="Data\compact7z-mlteast-uk.lem" />
+    <None Remove="Data\compact7z-multext-en.lem" />
+    <None Remove="Data\compact7z-multext-fr.lem" />
+    <None Remove="Data\compact7z-multext-ge.lem" />
+    <None Remove="Data\compact7z-multext-it.lem" />
+    <None Remove="Data\compact7z-multext-sp.lem" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\compact7z-mlteast-bg.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-cs.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-en.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-et.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-fa.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-fr.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-hu.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-mk.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-pl.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-ro.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-ru.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sk.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sl.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-sr.lem" />
+    <EmbeddedResource Include="Data\compact7z-mlteast-uk.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-en.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-fr.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-ge.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-it.lem" />
+    <EmbeddedResource Include="Data\compact7z-multext-sp.lem" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0-rc.1.21452.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.0-rc.1.21452.15" PrivateAssets="all" />
+    <PackageReference Include="SevenZip" Version="19.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
+  </ItemGroup>
+
+</Project>

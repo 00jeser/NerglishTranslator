@@ -1,0 +1,76 @@
+﻿@page "/";
+@using System.Net;
+@inject NavigationManager MyNavigationManager;
+@using LemmaSharp;
+
+<div class="controlContainer">
+	@if (loaded)
+	{
+		<div>
+			<textarea value="@inputText" @onchange="@((inp) => {
+				string bodyStr = inp.Value.ToString();
+				string rez = "";
+				Console.WriteLine("1");
+				ILemmatizer lmtz = new LemmatizerPrebuiltCompact(LemmaSharp.LanguagePrebuilt.English);
+				Console.WriteLine("2");
+				foreach (string s in bodyStr.Split(new char[] { ' ', ',', '.', ')', '(' }, StringSplitOptions.RemoveEmptyEntries))
+				{
+					Console.WriteLine("3");
+					var lema = lmtz.Lemmatize(s).ToLower();
+					int index = eng.IndexOf(lema);
+					if (ExceptionWords.Keys.ToList().IndexOf(s) != -1)
+						rez += ExceptionWords[s];
+					else if (index == -1)
+						rez += lema + " ";
+					else
+					{
+						if (s.Last() == 's' && lema.Last() != 's')
+							rez += ner[index] + " ";
+						if (s.EndsWith("est") && !lema.EndsWith("est"))
+							rez += ner[index] + " ";
+						rez += ner[index] + " ";
+					}
+				}
+				resultString = rez;
+	})">
+
+				</textarea>
+		</div>
+		<div>
+			<p>
+				@resultString
+			</p>
+		</div>
+	}
+	else
+	{
+		<div>
+			<p>
+				Tuple loading...
+			</p>
+		</div>
+	}
+</div>
+
+
+@code {
+	string inputText { get; set; }
+
+	string resultString { get; set; }
+
+	List<string> eng { get; set; }
+	List<string> ner { get; set; }
+	public Dictionary<string, string> ExceptionWords = new Dictionary<string, string>();
+
+	bool loaded = false;
+
+	protected override async Task OnInitializedAsync()
+	{
+		ExceptionWords.Add("is", "as");
+		ExceptionWords.Add("murloc", "murlok");
+		ExceptionWords.Add("murlocs", "murlok murlok");
+		eng = (await (await (new HttpClient()).GetAsync(new Uri($"{MyNavigationManager.Uri}/en.txt"))).Content.ReadAsStringAsync()).Split().ToList();
+		ner = (await (await (new HttpClient()).GetAsync(new Uri($"{MyNavigationManager.Uri}/ner.txt"))).Content.ReadAsStringAsync()).Split().ToList();
+		loaded = true;
+	}
+}

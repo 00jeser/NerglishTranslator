@@ -1,9 +1,0 @@
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\netstandard2.0\LemmaSharp.deps.json
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\netstandard2.0\LemmaSharp.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\netstandard2.0\LemmaSharp.pdb
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\bin\Debug\netstandard2.0\Lzma#.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\netstandard2.0\LemmaSharp.csprojAssemblyReference.cache
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\netstandard2.0\LemmaSharp.csproj.CoreCompileInputs.cache
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\netstandard2.0\LemmaSharp.csproj.CopyComplete
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\netstandard2.0\LemmaSharp.dll
-C:\Users\00jes\source\repos\NerglishTranslator\LemmaSharp\obj\Debug\netstandard2.0\LemmaSharp.pdb

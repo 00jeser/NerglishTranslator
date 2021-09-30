@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed4b876c-398f-4294-ba51-8a2f386c8ccc": {
+      "ProjectGuid": "ed4b876c-398f-4294-ba51-8a2f386c8ccc",
+      "DisplayName": "NerglishTranslator",
+      "ColorIndex": 0
+    },
+    "bab63110-1c42-4d37-8af4-2fe58e450c5e": {
+      "ProjectGuid": "bab63110-1c42-4d37-8af4-2fe58e450c5e",
+      "DisplayName": "NerglishTranslatorV2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
