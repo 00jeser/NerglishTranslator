@@ -1,0 +1,12 @@
+/* /Pages/Index.razor.rz.scp.css */
+.controlContainer[b-l43bgl8knz]{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    margin: 1rem;
+}
+textarea[b-l43bgl8knz]{
+    width: 100%;
+    height: 60vh;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
