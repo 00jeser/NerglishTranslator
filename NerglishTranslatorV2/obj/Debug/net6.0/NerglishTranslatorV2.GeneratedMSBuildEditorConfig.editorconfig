@@ -11,24 +11,24 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = NerglishTranslatorV2
 build_property.RootNamespace = NerglishTranslatorV2
-build_property.ProjectDir = C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslatorV2\
+build_property.ProjectDir = C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2\
 build_property.RazorLangVersion = 6.0
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\00jes\source\repos\NerglishTranslator\NerglishTranslatorV2
+build_property.MSBuildProjectDirectory = C:\Users\00jes\Source\Repos\NerglishTranslator\NerglishTranslatorV2
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/00jes/source/repos/NerglishTranslator/NerglishTranslatorV2/App.razor]
+[c:/Users/00jes/Source/Repos/NerglishTranslator/NerglishTranslatorV2/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/00jes/source/repos/NerglishTranslator/NerglishTranslatorV2/_Imports.razor]
+[c:/Users/00jes/Source/Repos/NerglishTranslator/NerglishTranslatorV2/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/00jes/source/repos/NerglishTranslator/NerglishTranslatorV2/Pages/Index.razor]
+[c:/Users/00jes/Source/Repos/NerglishTranslator/NerglishTranslatorV2/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jd1bxdq6f3
 
-[c:/Users/00jes/source/repos/NerglishTranslator/NerglishTranslatorV2/Shared/MainLayout.razor]
+[c:/Users/00jes/Source/Repos/NerglishTranslator/NerglishTranslatorV2/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0h4vbly85c
